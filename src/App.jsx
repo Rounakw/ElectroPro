@@ -9,7 +9,7 @@ function App() {
   return (
     <>
     <Navbar/>
-    <h1>HareKrishna</h1>
+    <h1>HareKrishna1</h1>
     <Home/>
     <Footer/>
     </>
