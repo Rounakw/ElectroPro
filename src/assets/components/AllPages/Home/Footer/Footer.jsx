@@ -49,7 +49,7 @@ function Footer() {
         </div>
         <div className="down-middle">
           <p>Made in kolkata, IN</p>
-          <p>Copyright © 2022 ElectroPro.com, All Rights Reserve</p>
+          <p>Copyright © 2023 ElectroPro.com, All Rights Reserve</p>
 
         </div>
         <div className="down-right">
