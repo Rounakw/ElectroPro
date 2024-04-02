@@ -8,7 +8,7 @@ import product from "./assets/product.png"
 import cart from "./assets/cart.png"
 import contact from "./assets/contact.png"
 function Navbar() {
-let totalCart = 5
+let totalCart = 0
 
     const [show, setShow] = useState(false)
     function handleToggleMenu() {
