@@ -1,0 +1,57 @@
+.customer{
+    background-color: #ececec;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 0px 3px -1px black;
+    cursor: pointer;
+    height: 320px;
+}
+
+.customer-description{
+    text-align: center;
+
+}
+
+.customer-profilepic{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.customer-name{
+    font-size: 15px;
+    font-weight: 800;
+
+}
+@media screen and (max-width:450px){
+    .customer{
+        background-color: #ececec;
+        padding: 20px;
+        margin: 15px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        align-items: center;
+        /* justify-content: space-around; */
+        box-shadow: 0px 0px 3px -1px black;
+    }
+  .customer-description{
+    display: none;
+  }
+  #quotation{
+    display: none;
+  }
+  .customer-name{
+    font-size: 15px;
+    font-weight: 800;
+    text-align: center;
+}
+
+}

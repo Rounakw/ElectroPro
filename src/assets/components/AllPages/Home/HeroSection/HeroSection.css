@@ -1,0 +1,225 @@
+.hero-section{
+    width: 100vw;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+
+}
+.img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(95%);
+}
+.dekstopimg{
+    display: block;
+}
+.tabletimg{
+    display: none;
+}
+.mobileimg{
+    display: none;
+}
+.hero-section-area{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    /* left: 45vw; */
+}
+.search-area{
+    width:500px;
+    margin: auto;
+
+}
+.search-area input{
+    width: 400px;
+    outline: none;
+    border: none;
+    height: 45px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+.search-area button{
+    height: 40px;
+    width: 100px;
+    background-color: red;
+    outline: none;
+    color: white;
+
+    /* transform: translateX(-90px); */
+    border: none;
+    height: 45px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.search-area button:hover{
+    background-color: rgb(211, 6, 6);
+}
+.sujjestion-main-div{
+    /* background-color: aquamarine; */
+    position: absolute;
+    width: 100%;
+    
+
+}
+.sujjestion{
+    background-color: rgb(240, 238, 238);
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: 3px auto;
+    overflow: hidden;
+    max-height: 300px;
+    border-radius: 5px;
+    
+    
+
+}
+.sujjestion span{
+    padding: 9.5px;
+    font-weight:lighter;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.sujjestion span:hover{
+    cursor: pointer;
+    background-color: #bebebe;
+    /* background-color: green; */
+
+}
+
+.advertise-area{
+    /* background-color: rgb(247, 219, 219); */
+    width: 55vw;
+    margin:40px  auto;
+
+}
+.advertise-area h3{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 3.2vw;
+    font-weight:bolder;
+    font-family: sans-serif;
+    
+
+}
+.advertise-area button{
+    margin-top: 30px;
+    height: 40px;
+    width: 100px;
+    background-color: red;
+    outline: none;
+    color: white;
+    /* transform: translateX(-90px); */
+    border: none;
+    height: 45px;border-radius: 100px;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.5s;
+
+
+
+}
+.advertise-area button:hover{
+    background-color: rgb(211, 6, 6);
+}
+
+@media screen and (max-width:1023px) and (min-width:768px) {
+    
+    .dekstopimg{
+        display: none;
+    }
+    .tabletimg{
+        display: block;
+    }
+    .mobileimg{
+        display: none;
+    }
+
+    .advertise-area{
+        width: 65vw;
+    
+    }
+    
+    .advertise-area h3{
+        font-weight: 900;
+        color: rgb(255, 255, 255);
+    }
+    
+}
+@media screen and (max-width:767px){
+    .img{
+        filter: brightness(60%) blur(1px);
+    }
+    .dekstopimg{
+        display: none;
+    }
+    .tabletimg{
+        display: none;
+    }
+    .mobileimg{
+        display: block;
+    }
+
+    .search-area{
+        width:301px;
+    }
+    .search-area input{
+        width: 220px;
+    }
+    .search-area button{
+        width: 80px;
+   
+    }
+
+    .advertise-area{
+        width: 68vw;
+    
+    }
+    
+    .advertise-area h3{
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 6.5vw;
+    
+    }
+    .sujjestion-main-div{
+        /* background-color: aquamarine; */
+        position: absolute;
+        width: 100%;
+    
+    }
+    .sujjestion{
+        background-color: rgb(240, 238, 238);
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        margin: 5px auto;
+        /* transform: translateX(-5px); */
+        border-radius: 2px;
+        
+    
+    }
+    
+    .sujjestion span:hover{
+        cursor: pointer;
+        background-color: #bebebe;
+        /* background-color: green; */
+    
+    }
+
+    
+}

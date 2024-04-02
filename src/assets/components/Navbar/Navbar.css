@@ -1,0 +1,165 @@
+.navbar{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 50px;
+}
+.navbarpageslist{
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 2.5vw;
+    font-weight: bold;
+}
+.navbarpageslist p{
+    text-transform: uppercase;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s;
+    font-size: 13px;
+}
+.navbarpageslist p:hover{
+   color: red;
+}
+.navbarpageslist p:hover span{
+    background-color: red;
+    color: rgb(255, 255, 255);
+ }
+
+
+.totalcart{
+    position: relative;
+    bottom:10px;
+    background-color: red;
+    transition: all 1s;
+    padding: 1px 3px;
+    border-radius: 5%;
+    text-align: center;
+}
+.navbar-signin button{
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px 16px;
+    border-radius: 3px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.navbar-signin button:hover{
+    background-color: white;
+    color: red;
+}
+
+.navbar-hamburger-menu{
+    display: none;
+}
+.hamburgermenu-slider{
+    display: none;
+}
+.hidden{
+    display: none;
+}
+
+@media screen and (max-width:1023px)  and (min-width:599px){
+
+    .navbarpageslist{
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 3.6vw;
+    font-weight: bold;
+}
+}
+
+
+@media screen and (max-width:600px){
+    .navbar{
+    background-color: rgb(0, 0, 0);
+    padding: 15px 30px;
+    align-items: center;
+    }
+    .navbarpageslist{
+        display: none;
+    }
+    .navbar-hamburger-menu{
+        display: block;
+    }
+    .navbar-hamburger-menu img{
+        filter: invert(12);
+        width: 30px;
+        aspect-ratio: 3/3;
+        cursor: pointer;
+    }
+    .mobile-right{
+        width: auto;
+        gap: 4vw;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+    }
+    .hamburgermenu-slider{
+        z-index: 100;
+        display: block;
+        background-color: rgb(29, 29, 29);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100vh;
+        width: 200px;
+        transition: all linear 3s;
+        animation: animation 0.5s 1 linear forwards alternate;
+    }
+    @keyframes animation {
+        0%   {transform: translateX(-100%)}
+        100% {transform: translateX(0%)}
+    }
+
+    .hamburgermenu-slider p{
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        text-transform: uppercase;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        transition: all 0.2s;
+        font-weight: 800;
+        font-size: 13px;
+        padding: 10px;
+    }
+    .hamburgermenu-slider p:hover{
+       color: red;
+       background-color: rgb(223, 221, 221);
+    }
+    .hamburgermenu-slider img{
+        color: white;
+        width: 20px;
+    }
+    .hamburgermenu-slider p:hover  > img {
+        filter: invert(1);
+        
+     }
+     .hamburger-menu-icon{
+        margin-left: 10px;
+     }
+     .totalcart{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 80px;
+        top: 10px;
+        background-color: red;
+        transition: all 0;
+        border-radius: 10%;
+        padding: 1px 2px;
+        text-align: center;
+    }
+    .hamburgermenu-slider p:hover span{
+        background-color: red;
+        color: rgb(255, 255, 255);
+     }
+
+}

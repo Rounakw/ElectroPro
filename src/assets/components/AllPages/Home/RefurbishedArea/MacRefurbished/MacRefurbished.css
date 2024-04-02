@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.mac-refurbished{
+    padding: 20px 30px;
+    /* background-color: rgb(226, 223, 223); */
+    display: flex;
+    gap: 20px;
+    width: 1000px;
+    margin: auto;
+    border-radius:  0px 0px 10px 10px;
+}
+.mac-refurbished2{
+    display: none;
+}
+.mac-refurbished img{
+    width: 300px;
+}
+.mac-right{
+    display: flex;
+    flex-direction: column;
+    /* align-items: end; */
+    justify-content: center;
+}
+.refurbished-mac-head{
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    margin-bottom: 10px;
+}
+.refurbished-mac-description{
+    font-family: "Nunito", sans-serif;
+    text-align: justify;
+    /* text-decoration: u; */
+    font-size: 17px;
+    font-size: 800;
+}
+.mac-right a{
+    margin-top: 10px;
+}
+.mac-right button{
+    margin-top: 15px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    outline: none;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.mac-right button:hover{
+    background-color: rgb(209, 3, 3);
+}
+@media screen and (max-width:1023px) and (min-width:768px) {
+    .mac-refurbished{
+        width: 700px;
+    }
+    .mac-refurbished img{
+        width: 220px;
+        height: 250px;
+        object-fit: cover;
+        object-position: left;
+    }
+    .mac-right{
+        gap:10px;
+    }
+    .refurbished-mac-head{
+        font-size: 20px;
+    }
+    .refurbished-mac-description{
+        font-family: "Nunito", sans-serif;
+        text-align: justify;
+        font-size: 15.36px;
+        font-size: 800;
+    }
+    .mac-right button{
+        margin-top: 10px;
+        margin-left: 233px;
+    }
+   
+    
+}
+@media screen and (max-width:767px) {
+    .mac-refurbished2{
+        background-color: #ECECEC;
+        padding: 20px 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 70vw;
+        margin: auto;
+        border-radius:  10px 10px 10px 10px;
+        align-items: center;
+    }
+    .mac-refurbished{
+        display: none;
+    }
+    .mac-refurbished2 img{
+        width: 300px;
+    }
+    .mac-right2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .refurbished-mac-head2{
+        font-family: "Nunito", sans-serif;
+        font-weight: 800;
+        font-size: 25px;
+        color: rgb(0, 0, 0);
+        margin: 15px 0px;
+    }
+    .refurbished-mac-description2{
+        display: none;
+    }
+
+    .mac-right2 button{
+        margin-top: 0px;
+        height: 40px;
+        width: 100px;
+        background-color: rgb(255, 0, 0);
+        outline: none;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        padding: 12px;
+        font-weight: bold;
+        font-size: 14px;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+    .mac-right2 button:hover{
+        background-color: rgb(209, 3, 3);
+    }
+
+    
+}
+@media screen and (max-width:500px) {
+    .mac-refurbished2{
+        padding: 20px 0px;
+    }
+    .mac-refurbished2 img{
+        width: 150px;
+    }
+    .phone-refurbished{
+        flex-direction: column;
+        align-items: center;
+        width: 70vw;
+        gap: 12px;
+        background-color: #ECECEC;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .refurbished-mac-head2{
+        font-size: 20px;
+        /* background-color: red; */
+
+    }
+
+    
+}

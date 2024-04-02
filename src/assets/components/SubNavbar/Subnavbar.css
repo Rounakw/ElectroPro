@@ -1,0 +1,40 @@
+.mobile{
+    display: none;
+}
+.dekstop{
+    display: block;
+}
+.slider-container{
+    border-top: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
+.subnav-item{
+    text-align: center;
+    cursor: pointer;
+    
+}
+.subnav-item h3{
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: sans-serif;
+    transition: all 0.3s  ease-in-out;
+}
+
+.subnav-item :hover{
+    background-color: black;
+    color: white;
+}
+#subnavbarslider{
+    padding: 0;
+}
+
+@media screen and (max-width:660px) {
+    .dekstop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+}

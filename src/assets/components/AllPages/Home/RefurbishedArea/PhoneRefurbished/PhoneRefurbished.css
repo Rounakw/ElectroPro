@@ -1,0 +1,129 @@
+.phone-refurbished{
+    padding: 20px 30px;
+    /* background-color: rgb(226, 223, 223); */
+    display: flex;
+    gap: 20px;
+    width: 1000px;
+    margin: auto;
+    border-radius: 10px 10px 0px 0px;
+}
+.phone-refurbished img{
+    width: 300px;
+}
+.phone-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.refurbished-phone-head{
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    margin-bottom: 10px;
+}
+.refurbished-phone-description{
+    font-family: "Nunito", sans-serif;
+    text-align: justify;
+    /* text-decoration: u; */
+    font-size: 17px;
+    font-size: 800;
+}
+.phone-right button{
+    margin-top: 15px;
+    height: 40px;
+    width: 101px;
+    background-color: rgb(255, 0, 0);
+    outline: none;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.phone-right button:hover{
+    background-color: rgb(209, 3, 3);
+}
+@media screen and (max-width:1023px) and (min-width:768px) {
+    .phone-refurbished{
+        width: 700px;
+    }
+    .phone-refurbished img{
+        width: 220px;
+        height: 250px;
+        object-fit: cover;
+        object-position: left;
+    }
+    .phone-right{
+        gap:10px;
+    }
+    .refurbished-phone-head{
+        font-size: 20px;
+    }
+    .refurbished-phone-description{
+        font-family: "Nunito", sans-serif;
+        text-align: justify;
+        font-size: 15.36px;
+        font-size: 800;
+    }
+    .phone-right button{
+        margin-top: 10px;
+    }
+   
+    
+}
+@media screen and (max-width:767px) {
+    .phone-refurbished{
+        flex-direction: column;
+        align-items: center;
+        width: 70vw;
+        gap: 12px;
+        background-color: #ECECEC;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .refurbished-phone-description{
+        display: none;
+    }
+    .phone-right button{
+        margin: 0;
+    }
+    .phone-right{
+        display: flex;
+        align-items: center;
+    }
+    .refurbished-phone-head{
+        color: black;
+        font-weight: 800;
+        font-size: 30px;
+        margin: 15px 0px;
+
+    }
+
+    
+}
+@media screen and (max-width:500px) {
+    
+    .phone-refurbished img{
+        width: 150px;
+    }
+    .phone-refurbished{
+        flex-direction: column;
+        align-items: center;
+        width: 70vw;
+        gap: 12px;
+        background-color: #ECECEC;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .refurbished-phone-head{
+        font-size: 20px;
+
+    }
+
+    
+}
+

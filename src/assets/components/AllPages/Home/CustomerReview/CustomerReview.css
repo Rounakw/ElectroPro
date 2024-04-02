@@ -1,0 +1,56 @@
+#slider-container{
+    margin:100px auto;
+    padding: 0px 95px;
+}
+#dekstop{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 900;
+    margin: 15px 0px;
+    display: block;
+}
+#mobile{
+    display: none;
+}
+.slick-prev:before{
+    color: red;
+    font-size: 40px;
+    position: relative;
+    right: 20px;
+    bottom: 2px;}
+
+.slick-next:before{
+    font-size: 40px;
+    color: red;
+    position: relative;
+    bottom: 4px;
+}
+@media screen and (max-width:916px) and (min-width:691px) {
+
+    #dekstop{
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        font-weight: 900;
+        margin: 15px 0px;
+        display: block;
+    }
+    #mobile{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:690px){
+    #dekstop{
+        display: none;
+    }
+    #mobile{
+        display: block;
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        font-weight: 900;
+        margin: 15px 0px;
+    }
+}
+
+
