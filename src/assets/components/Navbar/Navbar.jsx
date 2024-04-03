@@ -23,28 +23,30 @@ function Navbar() {
                 </NavLink>
 
                 <div className='navbarpageslist'>
-                    <p className='navitem-home'>
-                        <NavLink to={"home"} style={({ isActive }) => { return { color: isActive ? "red" : "white", textDecoration: "none" } }}>
-                            Home
+                    <p className='navitem-i'>
+                        <NavLink to={"home"} style={({ isActive }) => { return { color: isActive ? "red" : "white", textDecoration: "none", } }}>
+                            <span className="span">Home</span>
                         </NavLink>
                     </p>
 
-                    <p className='navitem-produc'>
-                        <NavLink to={"product"} style={({ isActive }) => { return { color: isActive ? "red" : "white", textDecoration: "none" } }}>Product
+                    <p className='navitem-i'>
+                        <NavLink to={"product"} style={({ isActive }) => { return { color: isActive ? "red" : "white", textDecoration: "none", } }}>
+                            <span className="span">Product</span>
+
                         </NavLink>
                     </p>
-                    <p className='navitem-cart'>
+                    <p className='navitem-i'>
                         <NavLink to={"cart"} style={({ isActive }) => { return { color: isActive ? "red" : "white", textDecoration: "none" } }}>
-                            Cart
+                            <span className="span">Product</span>
                         </NavLink>
                         <span className='totalcart'>{totalCart}</span>
                     </p>
 
-                    <p className='navitem-contact'>
-                    <NavLink to={"contact"} style={({ isActive }) => { return { color: isActive ? "red" : "white", textDecoration: "none" } }}>
-                        Contact us
+                    <p className='navitem-i'>
+                        <NavLink to={"contact"} style={({ isActive }) => { return { color: isActive ? "red" : "white", textDecoration: "none" } }}>
+                            <span className="span">Contact us</span>
                         </NavLink>
-                        </p>
+                    </p>
 
                 </div>
                 <div className="mobile-right">
@@ -60,14 +62,39 @@ function Navbar() {
                 <div className={show ? 'hamburgermenu-slider' : 'hidden'}>
                     <br />
                     <div className='hamburger-menu-icon'>
-                        <Logo />
+                    <NavLink to={''}>
+                    <Logo />
+                </NavLink>
                     </div>
                     <br />
-                    <p className='navitem-home'><img src={home} alt="" />Home</p>
-                    <p className='navitem-product'><img src={product} alt="" />Product</p>
-                    <p className='navitem-cart' style={{ position: "relative" }}><img src={cart} alt="" />Cart
+                    <NavLink to={"home"} style={({ isActive })=>{ return { color: isActive ? "red" : "white", textDecoration: "none", } }}>
+                    <p className='navitem-i'>
+                            <img src={home} alt="" />
+                                <span className="span2">Home</span>
+                    </p>
+                    </NavLink>
+
+                    <NavLink to={"product"} style={({ isActive })=>{ return { color: isActive ? "red" : "white", textDecoration: "none", } }}>
+                    <p className='navitem-i'>
+                    <img src={product} alt="" />
+                                <span className="span2">Product</span>
+                    </p>
+                    </NavLink>
+
+
+                    <NavLink to={"cart"} style={({ isActive })=>{ return { color: isActive ? "red" : "white", textDecoration: "none", } }}>
+                    <p className='navitem-cart nav-item-cart' style={{ position: "relative" }}><img src={cart} alt="" />Cart
                         <span className='totalcart'>{totalCart}</span></p>
-                    <p className='navitem-contact'><img src={contact} alt="" />Contact us</p>
+                        </NavLink>
+
+
+
+                    <NavLink to={"contact"} style={({ isActive })=>{ return { color: isActive ? "red" : "white", textDecoration: "none", } }}>
+                     <p className='navitem-i'>
+                    <img src={contact} alt="" />
+                                <span className="span2">Contact us</span>
+                    </p>
+                    </NavLink>
                 </div>
             </div>
         </>
