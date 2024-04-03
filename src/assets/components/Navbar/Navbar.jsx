@@ -37,7 +37,7 @@ function Navbar() {
                     </p>
                     <p className='navitem-i'>
                         <NavLink to={"cart"} style={({ isActive }) => { return { color: isActive ? "red" : "white", textDecoration: "none" } }}>
-                            <span className="span">Product</span>
+                            <span className="span">CArt</span>
                         </NavLink>
                         <span className='totalcart'>{totalCart}</span>
                     </p>

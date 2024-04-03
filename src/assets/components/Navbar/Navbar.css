@@ -22,6 +22,7 @@
 .span:hover{
    color: red;
    background-color: black;
+   font-size: 13px;
 }
 
 
@@ -158,6 +159,7 @@
     
     .hamburgermenu-slider p:hover span{
         color: rgb(255, 255, 255);
+        font-size: 13px;
      }
      .navitem-i:hover .span2{
         color: red;
