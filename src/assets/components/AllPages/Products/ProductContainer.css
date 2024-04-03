@@ -1,0 +1,27 @@
+
+.product-container{
+    margin: 20px 20px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    gap: 20px 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+@media screen and (max-width:1023px) and (min-width:768px) {
+    .product-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+@media screen and (max-width:767px){
+    .product-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+@media screen and (max-width:600px){
+    .product-container{
+        grid-template-columns: 1fr;
+    }
+    
+}

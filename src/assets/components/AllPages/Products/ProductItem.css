@@ -1,0 +1,340 @@
+.Mobileitems {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 30px;
+    background-color: #ECECEC;
+    width: 30.7vw;
+    /* width: 400px; */
+    height: 18vw;
+    box-shadow: 1px 1px 7px -3px black;
+}
+
+.Mobileitems-details {
+    /* padding: 10px 0px;background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.brand-name {
+    /* background-color: red; */
+    font-weight: 700;
+    font-size: 1.4vw;
+    display: inline-flex;
+    align-items: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 70px;
+    margin-bottom: 0.5vw;
+
+}
+
+.brand-logo {
+    width: 2.4vw;
+
+}
+
+.cartTitle {
+    font-weight: 900;
+    font-size: 20px;
+
+}
+
+.price-div {
+    flex-direction: row;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.Start-price {
+    font-size: 15px;
+    /* color: rebeccapurple; */
+    font-weight: 700;
+
+}
+
+.Cut-price {
+    text-decoration: line-through;
+
+}
+
+.Cart-description {
+    font-size: 0.9vw;
+    padding-right: 10px;
+
+}
+
+.Mobileitems-details-btn {
+    background-color: rgb(255, 0, 0);
+    outline: none;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 7vw;
+    padding: 9px 12px;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-top: 0.8vw;
+
+}
+
+.Mobileitems-details-btn:hover {
+    background-color: rgb(212, 4, 4);
+
+}
+
+
+/*  */
+.Mobileitems-image {
+    width: 10vw;
+
+    mix-blend-mode: multiply;
+}
+
+@media screen and (max-width:1200px) and (min-width:1024px) {
+    body {
+        /* background-color: rebeccapurple; */
+    }
+
+    .Cart-description {
+        display: none;
+
+    }
+
+    .brand-name {
+        /* background-color: red; */
+        font-weight: 700;
+        font-size: 1.4vw;
+        margin-bottom: 0.3vw;
+
+    }
+
+    .cartTitle {
+        font-weight: 900;
+        font-size: 1.5vw;
+
+    }
+
+    .price-div {
+        flex-direction: row;
+        display: flex;
+        gap: 5px;
+        font-size: 1.05vw;
+        align-items: center;
+    }
+
+    .Start-price {
+        font-size: 1.1vw;
+        /* color: rebeccapurple; */
+        font-weight: 700;
+
+    }
+
+    .Mobileitems-details-btn {
+        background-color: rgb(255, 0, 0);
+        outline: none;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        width: 6vw;
+        font-weight: 700;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .Mobileitems {
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0px 30px;
+        background-color: #ECECEC;
+        width: 45vw;
+        height: 25vw;
+        box-shadow: 1px 1px 7px -3px black;
+    }
+
+    .brand-logo {
+        width: 28px;
+    }
+
+    .brand-name {
+        align-items: center;
+        gap: 5px;
+        font-weight: 800;
+        font-size: 2vw;
+        margin-bottom: 0.3vw;
+
+    }
+
+    .Cart-description {
+        font-size: 1.2vw;
+    }
+
+    .Mobileitems-image {
+        width: 12vw;
+
+        mix-blend-mode: multiply;
+    }
+
+    .Mobileitems-details-btn {
+        background-color: rgb(255, 0, 0);
+        outline: none;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        width: 10vw;
+        padding: 9px 12px;
+        font-weight: 700;
+        font-size: 14px;
+        cursor: pointer;
+        transition: all 0.5s;
+        margin-top: 0.8vw;
+
+    }
+
+
+
+}
+
+@media screen and (max-width:850px) and (min-width:768px) {
+
+
+    .Cart-description {
+        display: none;
+    }
+
+    .brand-logo {
+        width: 22px;
+    }
+
+    .brand-name {
+        align-items: center;
+        /* background-color: red; */
+        font-weight: 700;
+        font-size: 2vw;
+        margin-bottom: 0.3vw;
+
+    }
+
+
+}
+
+
+@media screen and (max-width:767px) {
+    .Mobileitems {
+        flex-direction: column-reverse;
+        width: 45vw;
+        height: 370px;
+        padding: 20px 40px;
+        gap: 10PX;
+    }
+    .brand-logo{
+        width: 19px;
+    }
+    .brand-name{
+        /* background-color: red; */
+        width: 50px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .Mobileitems-image {
+        width: 90px;
+        mix-blend-mode: multiply; 
+    }
+.Cart-description{
+    margin: 12px 0px;
+    font-size: 13px;
+}
+    .Mobileitems-details-btn {
+        background-color: rgb(255, 0, 0);
+        outline: none;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        width: 100px;
+        padding: 9px 12px;
+        font-weight: 700;
+        font-size: 14px;
+        cursor: pointer;
+        width: 100%;
+        transition: all 0.5s;
+        margin-top: 0;
+    }
+
+}
+@media screen and (max-width:600px) {
+    .Mobileitems {
+        flex-direction: column-reverse;
+        width: 70vw;
+        /* height: 400px; */
+        padding: 40px 40px 25px 40px;
+        gap: 10PX;
+    }
+    .brand-logo{
+        width: 19px;
+    }
+    .cartTitle{
+        font-size: 19px;
+    }
+    .brand-name{
+        /* background-color: red; */
+        width: 45px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .Mobileitems-image {
+        width: 40%;
+        /* border: 2px solid red; */
+        object-fit: contain;
+        mix-blend-mode: multiply; 
+    }
+.Cart-description{
+    margin: 12px 0px;
+    font-size: 13px;
+}
+    .Mobileitems-details-btn {
+        background-color: rgb(255, 0, 0);
+        outline: none;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        width: 100px;
+        padding: 9px 12px;
+        font-weight: 700;
+        font-size: 14px;
+        cursor: pointer;
+        width: 100%;
+        transition: all 0.5s;
+        margin-top: 0;
+    }
+
+}
+@media only screen and (max-width: 356px){
+    .Mobileitems {
+        flex-direction: column-reverse;
+        width: 70vw;
+        height: 300px;
+        padding:10px;
+        gap: 10PX;
+    }
+    .cartTitle{
+        font-size:6vw;
+    }
+    
+
+    .Cart-description{
+        display: none;
+    }
+    .Mobileitems-details-btn{
+        margin-top: 10px;
+    }
+}
+
