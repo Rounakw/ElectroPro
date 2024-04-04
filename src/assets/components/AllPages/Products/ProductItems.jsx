@@ -21,7 +21,7 @@ function ProductItems({ brandName, brandlogo, title, startingPrice, cuttPrice, d
             </div>
 
             {/* <div className="Mobileitems-image"> */}
-                <img src={thumbnail} alt="" className='Mobileitems-image'/>
+                <img src={thumbnail}  alt="" className='Mobileitems-image'/>
             {/* </div> */}
         </div>
     )

@@ -235,6 +235,7 @@
         height: 370px;
         padding: 20px 40px;
         gap: 10PX;
+        justify-content: space-around;
     }
     .brand-logo{
         width: 19px;
@@ -273,6 +274,7 @@
 @media screen and (max-width:600px) {
     .Mobileitems {
         flex-direction: column-reverse;
+        justify-content: space-around;
         width: 70vw;
         /* height: 400px; */
         padding: 40px 40px 25px 40px;
@@ -282,7 +284,7 @@
         width: 19px;
     }
     .cartTitle{
-        font-size: 19px;
+        font-size: 18px;
     }
     .brand-name{
         /* background-color: red; */
@@ -291,7 +293,8 @@
         font-weight: 700;
     }
     .Mobileitems-image {
-        width: 40%;
+        /* width: 150px; */
+        height: 90px;
         /* border: 2px solid red; */
         object-fit: contain;
         mix-blend-mode: multiply; 
