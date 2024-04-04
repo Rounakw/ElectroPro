@@ -205,8 +205,6 @@
 }
 
 @media screen and (max-width:850px) and (min-width:768px) {
-
-
     .Cart-description {
         display: none;
     }
@@ -232,10 +230,10 @@
     .Mobileitems {
         flex-direction: column-reverse;
         width: 45vw;
-        height: 370px;
+        height: 385px;
         padding: 20px 40px;
         gap: 10PX;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     .brand-logo{
         width: 19px;
@@ -276,9 +274,13 @@
         flex-direction: column-reverse;
         justify-content: space-around;
         width: 70vw;
+        height: 360px;
         /* height: 400px; */
         padding: 40px 40px 25px 40px;
         gap: 10PX;
+    }
+    .price-div{
+        font-size: 15px;
     }
     .brand-logo{
         width: 19px;
@@ -289,7 +291,7 @@
     .brand-name{
         /* background-color: red; */
         width: 45px;
-        font-size: 18px;
+        font-size: 15px;
         font-weight: 700;
     }
     .Mobileitems-image {
@@ -326,6 +328,7 @@
         width: 70vw;
         height: 300px;
         padding:10px;
+        justify-content: space-evenly;
         gap: 10PX;
     }
     .cartTitle{
