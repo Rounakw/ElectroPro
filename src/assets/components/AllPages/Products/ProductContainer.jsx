@@ -11,7 +11,7 @@ let productData = [
         cuttprice:"7,999",
         descrption:"Compact iPhone model with powerful performance, ideal for users seeking smaller form factor.",
         thumbnail:"https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-se-01.jpg",
-        id:"i-phone-se"
+        id:"i_phone_se"
     },
     {
         brandName:"Apple",
@@ -21,7 +21,7 @@ let productData = [
         cuttprice:"8,799",
         descrption:"Sleek design, powerful performance, advanced features, and seamless user experience.",
         thumbnail:"https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-6-1.jpg",
-        id:"i-phone-6"
+        id:"i_phone_6"
     },
     {
         brandName:"Apple",
@@ -31,7 +31,7 @@ let productData = [
         cuttprice:"10,999",
         descrption:"Sleek design, advanced camera, powerful performance, iconic Apple innovation.",
         thumbnail:"https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-7-1.jpg",
-        id:"i-phone-7"
+        id:"i_phone_7"
     },
     {
         brandName:"Apple",
@@ -41,7 +41,7 @@ let productData = [
         cuttprice:"10,999",
         descrption:"Sleek design, powerful performance, advanced features, iconic simplicity, premium experience.",
         thumbnail:"https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-8-new-1.jpg",
-        id:"i-phone-8"
+        id:"i_phone_8"
     },
     {
         brandName:"Apple",
@@ -51,7 +51,7 @@ let productData = [
         cuttprice:"15,999",
         descrption:"Sleek, powerful, innovative smartphone with cutting-edge features and iconic design.",
         thumbnail:"https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-x-new-2.jpg",
-        id:"i-phone-x"
+        id:"i_phone_x"
     },
     {
         brandName:"Apple",
@@ -61,7 +61,7 @@ let productData = [
         cuttprice:"25,999",
         descrption:"Dual-camera system, powerful A13 Bionic chip, all-day battery life.",
         thumbnail:"https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-11-1.jpg",
-        id:"i-phone-11"
+        id:"i_phone_11"
     },
     {
         brandName:"Apple",
@@ -71,7 +71,7 @@ let productData = [
         cuttprice:"27,999",
         descrption:"High-performance smartphone with advanced features and sleek design.",
         thumbnail:"https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-12-2.jpg",
-        id:"i-phone-12"
+        id:"i_phone_12"
     },
     {
         brandName:"Apple",
@@ -81,7 +81,7 @@ let productData = [
         cuttprice:"37,499",
         descrption:"Compact, powerful Apple 13 laptop with sleek design and high performance.",
         thumbnail:"https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-13-01.jpg",
-        id:"i-phone-13"
+        id:"i_phone_13"
     },
     {
         brandName:"Apple",
@@ -91,7 +91,7 @@ let productData = [
         cuttprice:"50,999",
         descrption:"Sleek, powerful, innovative laptop with stunning display and cutting-edge features.",
         thumbnail:"https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-2.jpg",
-        id:"i-phone-14"
+        id:"i_phone_14"
     },
     {
         brandName:"Apple",
@@ -101,7 +101,7 @@ let productData = [
         cuttprice:"49,990",
         descrption:"Sleek design, powerful performance, innovative features, unparalleled user experience.",
         thumbnail:"https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-1.jpg",
-        id:"i-phone-15"
+        id:"i_phone_15"
     },
     {
         brandName:"Apple",
@@ -111,7 +111,7 @@ let productData = [
         cuttprice:"1Lakh",
         descrption:"Powerful, sleek, and innovative computing device for professionals.",
         thumbnail:"https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-13-pro-max-1.jpg",
-        id:"i-phone-pro-series"
+        id:"i_phone_pro_series"
     }
 ]
 function ProductContainer() {
