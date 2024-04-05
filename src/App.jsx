@@ -5,6 +5,7 @@ import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } 
 import Home from './assets/components/AllPages/Home/Home';
 import Layout from './assets/components/Layout/Layout';
 import ProductContainer from './assets/components/AllPages/Products/ProductContainer';
+import Item from './assets/components/AllPages/Home/Item/Item';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path='' element={<Home/>}/>
         <Route path='home' element={<Home/>}/>
         <Route path='product' element={<ProductContainer/>}/>
+        <Route path='product/item/:id' element={<Item/>}/>
         <Route path='cart' element={<h1>cart empty</h1>}/>
         <Route path='contact' element={<h1>Contact page unavailable</h1>}/>
       </Route>

@@ -1,8 +1,9 @@
 import React from 'react'
 import './ProductItem.css'
 import apple from './assets/apple.png'
+import { Link } from 'react-router-dom'
 
-function ProductItems({ brandName, brandlogo, title, startingPrice, cuttPrice, description, thumbnail }) {
+function ProductItems({ brandName, brandlogo, title, startingPrice, cuttPrice, description, thumbnail,id }) {
     return (
         <div className='Mobileitems'>
             <div className="Mobileitems-details">
@@ -17,12 +18,12 @@ function ProductItems({ brandName, brandlogo, title, startingPrice, cuttPrice, d
 
                 <p className='Cart-description'>{description}</p>
 
+                <Link to={`item/${id}`}>
                 <button className='Mobileitems-details-btn'>Details</button>
+                </Link>
             </div>
 
-            {/* <div className="Mobileitems-image"> */}
-                <img src={thumbnail}  alt="" className='Mobileitems-image'/>
-            {/* </div> */}
+            <img src={thumbnail}  alt="" className='Mobileitems-image'/>
         </div>
     )
 }
