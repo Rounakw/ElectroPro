@@ -1,0 +1,134 @@
+.Product-items{
+    border-radius: 10px;
+    background-color: #ECECEC;
+    padding:20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* align-items: start; */
+    width: calc(96VW - 19VW);
+    margin: 20px;
+    gap: 15px;
+}
+.thumbnail-div{
+    max-width:7vw;
+    min-width: 6vw;
+    /* background-color: blue; */
+}
+.thumbnail-div img{
+    width: 110%;
+    mix-blend-mode: multiply;
+}
+.details{
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.product-name{
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.product-name:hover{
+    color: rgb(61, 61, 61);
+}
+.rating{
+    padding: 1px 6px;
+    font-size: 1.2vw;
+    font-weight: 600;
+    border-radius: 5px;
+    color: white;
+    width: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1a9220;
+
+}
+.product-description{
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    gap: 5px;
+    font-family: sans-serif;
+    font-size: 1.2vw;
+    
+}
+.product-description li::marker{
+    color: rgb(145, 144, 144);
+}
+
+.price-section{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.price{
+    font-size: 2vw;
+    font-weight: 700;
+}
+.delivery{
+    font-size: 12px;
+
+}
+.offer{
+    font-weight: 800;
+    letter-spacing: -0.6px;
+    font-size: 13px;
+    color: #1a9220;
+}
+.exchange{
+    font-weight: 400;
+}
+.exchange>span{
+    font-weight: bold;
+}
+.addToCarDiv button{
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: #1a9220;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 1vw 1vw;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.addToCarDiv>button:hover{
+    background-color: rgb(0, 145, 0);
+}
+
+@media screen and (max-width:1023px) and (min-width:768px) {
+
+    .Product-items{
+        width: 90vw;
+        margin-bottom: 20px;
+        gap: 50px;
+        
+    }
+    .rating{
+        font-size: 15px;
+        width: 45px;
+    
+    }
+    .product-description{
+        font-size: 1.5vw;
+    }
+    .price{
+        font-size: 2vw;
+    }
+    .offer{
+        font-size: 1.3vw;
+        letter-spacing: 0;
+    }
+    .exchange{
+        font-size: 1.6vw;
+    }
+    .thumbnail-div img{
+        width: 150%;
+        mix-blend-mode: multiply;
+    }
+    
+}
