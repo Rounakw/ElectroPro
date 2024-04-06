@@ -1150,4 +1150,171 @@ export const ItemsData =
             ]
         },
 
+        {
+            i_phone_13: [
+                {
+                    id: 1,
+                    title: "Apple iPhone 13 (Starlight, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/128/128/ktketu80/mobile/6/n/d/iphone-13-mlpg3hn-a-apple-original-imag6vpyghayhhrh.jpeg?q=70&crop=false",
+                    rating: 5,
+                    price: "31,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A15 Bionic Chip Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 2,
+                    title: "Apple iPhone 13 (Blue, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/ktketu80/mobile/2/y/o/iphone-13-mlpk3hn-a-apple-original-imag6vpyur6hjngg.jpeg?q=70&crop=false",
+                    rating: 5,
+                    price: "31,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A15 Bionic Chip Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 3,
+                    title: "Apple iPhone 13 (Green, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/l0igvww0/mobile/r/q/m/-original-imagca5ajerqpfjy.jpeg?q=70&crop=false",
+                    rating: 5,
+                    price: "31,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A15 Bionic Chip Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 4,
+                    title: "Apple iPhone 13 (Pink, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/128/128/ktketu80/mobile/8/z/w/iphone-13-mlph3hn-a-apple-original-imag6vzzhrxgazsg.jpeg?q=70&crop=false",
+                    rating: 5,
+                    price: "31,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A15 Bionic Chip Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 5,
+                    title: "Apple iPhone 13 (Midnight, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/ktketu80/mobile/s/l/c/iphone-13-mlpf3hn-a-apple-original-imag6vzz5qvejz8z.jpeg?q=70&crop=false",
+                    rating: 5,
+                    price: "31,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A15 Bionic Chip Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 6,
+                    title: "Apple iPhone 13 (Midnight, 256 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/128/128/ktketu80/mobile/s/l/c/iphone-13-mlpf3hn-a-apple-original-imag6vzz5qvejz8z.jpeg?q=70&crop=false",
+                    rating: 5,
+                    price: "35,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 256,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A15 Bionic Chip Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 7,
+                    title: "Apple iPhone 13 ((PRODUCT)RED, 256 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/ktketu80/mobile/a/m/7/iphone-13-mlpj3hn-a-apple-original-imag6vpyk3w4zarg.jpeg?q=70&crop=false",
+                    rating: 5,
+                    price: "35,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 256,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A15 Bionic Chip Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 8,
+                    title: "Apple iPhone 13 (Midnight, 512 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/128/128/ktketu80/mobile/s/l/c/iphone-13-mlpf3hn-a-apple-original-imag6vzz5qvejz8z.jpeg?q=70&crop=false",
+                    rating: 5,
+                    price: "38,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 512,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A15 Bionic Chip Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 9,
+                    title: "Apple iPhone 13 (Pink, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/128/128/ktketu80/mobile/8/z/w/iphone-13-mlph3hn-a-apple-original-imag6vzzhrxgazsg.jpeg?q=70&crop=false",
+                    rating: 5,
+                    price: "31,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A15 Bionic Chip Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 10,
+                    title: "Apple iPhone 13 (Midnight, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/ktketu80/mobile/s/l/c/iphone-13-mlpf3hn-a-apple-original-imag6vzz5qvejz8z.jpeg?q=70&crop=false",
+                    rating: 5,
+                    price: "31,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A15 Bionic Chip Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+
+
+            ]
+        },
+
     ]
