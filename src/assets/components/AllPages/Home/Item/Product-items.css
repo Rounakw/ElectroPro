@@ -270,4 +270,18 @@
     .offer-mobile{
         display: none;
     }
+    .addToCarDiv-mobile button{
+        outline: none;
+        border: none;
+        color: white;
+        background-color: #1a9220;
+        padding: 8px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+    .addToCarDiv-mobile button:hover{
+        background-color: #04b90d;
+
+    }
 }
