@@ -55,11 +55,7 @@ function ProductItems({ id, title, thumbnail, rating, price, isBestSeller, rom, 
                 <div className='addToCarDiv-mobile'>
                     <button>Add to cart</button>
                 </div>
-
             </div>
-
-
-
         </div>
     </>
     )

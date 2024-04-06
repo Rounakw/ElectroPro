@@ -1,7 +1,7 @@
 import React from 'react'
 import './ProductItem.css'
 import apple from './assets/apple.png'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 function ProductItems({ brandName, brandlogo, title, startingPrice, cuttPrice, description, thumbnail,id }) {
     return (

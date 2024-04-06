@@ -982,4 +982,172 @@ export const ItemsData =
             ]
         },
 
+        {
+            i_phone_12: [
+                {
+                    id: 1,
+                    title: "Apple iPhone 12 (Black, 64 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/kg8avm80/mobile/r/h/z/apple-iphone-12-dummyapplefsn-original-imafwg8duby8qbn4.jpeg?q=70&crop=false",
+                    rating: 5,
+                    price: "25,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 64,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A14 Bionic Chip with Next Generation Neural Engine Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 2,
+                    title: "Apple iPhone 12 (Blue, 64 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/kg8avm80/mobile/y/7/n/apple-iphone-12-dummyapplefsn-original-imafwg8dpyjvgg3j.jpeg?q=70&crop=false",
+                    rating: 5,
+                    price: "25,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 64,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A14 Bionic Chip with Next Generation Neural Engine Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 3,
+                    title: "Apple iPhone 12 (White, 64 GB)",
+                    thumbnail:"https://rukminim2.flixcart.com/image/416/416/kg8avm80/mobile/j/f/9/apple-iphone-12-dummyapplefsn-original-imafwg8dkyh2zgrh.jpeg?q=70&crop=false",
+                    rating: 5,
+                    price: "25,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 64,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A14 Bionic Chip with Next Generation Neural Engine Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 4,
+                    title: "Apple iPhone 12 (Black, 256 GB)",
+                    thumbnail:"https://rukminim2.flixcart.com/image/416/416/kg8avm80/mobile/r/h/z/apple-iphone-12-dummyapplefsn-original-imafwg8duby8qbn4.jpeg?q=70&crop=false",
+                    rating: 4.5,
+                    price: "26,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 256,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A14 Bionic Chip with Next Generation Neural Engine Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+
+                {
+                    id: 5,
+                    title: "Apple iPhone 12 (Blue, 128 GB)",
+                    thumbnail:"https://rukminim2.flixcart.com/image/416/416/kg8avm80/mobile/y/7/n/apple-iphone-12-dummyapplefsn-original-imafwg8dpyjvgg3j.jpeg?q=70&crop=false",
+                    rating: 4.5,
+                    price: "26,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A14 Bionic Chip with Next Generation Neural Engine Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 6,
+                    title: "Apple iPhone 12 (White, 256 GB)",
+                    thumbnail:"https://rukminim2.flixcart.com/image/416/416/kg8avm80/mobile/j/f/9/apple-iphone-12-dummyapplefsn-original-imafwg8dkyh2zgrh.jpeg?q=70&crop=false",
+                    rating: 4.5,
+                    price: "26,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 256,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A14 Bionic Chip with Next Generation Neural Engine Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 7,
+                    title: "Apple iPhone 12 (Purple, 256 GB)",
+                    thumbnail:"https://rukminim2.flixcart.com/image/416/416/ko0d6kw0/mobile/6/h/y/iphone-12-mjnm3hn-a-apple-original-imag2k2v6ehvnzfd.jpeg?q=70&crop=false",
+                    rating: 4.5,
+                    price: "26,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 256,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A14 Bionic Chip with Next Generation Neural Engine Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 8,
+                    title: "Apple iPhone 12 (Red, 256 GB)",
+                    thumbnail:"https://rukminim2.flixcart.com/image/416/416/kg8avm80/mobile/q/8/f/apple-iphone-12-dummyapplefsn-original-imafwg8dbzv8vh7t.jpeg?q=70&crop=false",
+                    rating: 4.5,
+                    price: "27,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 256,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A14 Bionic Chip with Next Generation Neural Engine Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 9,
+                    title: "Apple iPhone 12 (Red, 64 GB)",
+                    thumbnail:"https://rukminim2.flixcart.com/image/416/416/kg8avm80/mobile/q/8/f/apple-iphone-12-dummyapplefsn-original-imafwg8dbzv8vh7t.jpeg?q=70&crop=false",
+                    rating: 4.5,
+                    price: "24,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 256,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A14 Bionic Chip with Next Generation Neural Engine Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 10,
+                    title: "Apple iPhone 12 (Red, 32 GB)",
+                    thumbnail:"https://rukminim2.flixcart.com/image/416/416/kg8avm80/mobile/q/8/f/apple-iphone-12-dummyapplefsn-original-imafwg8dbzv8vh7t.jpeg?q=70&crop=false",
+                    rating: 4.5,
+                    price: "24,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 32,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A14 Bionic Chip with Next Generation Neural Engine Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+
+
+            ]
+        },
+
     ]

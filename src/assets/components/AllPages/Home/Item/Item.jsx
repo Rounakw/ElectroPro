@@ -15,7 +15,6 @@ function Item() {
     }
   }
 
-
   return (
     <div className='main-detail-page'>
 
