@@ -1,6 +1,5 @@
 export const ItemsData =
     [
-
         {
             i_phone_se: [
                 {
@@ -729,8 +728,7 @@ export const ItemsData =
             ]
         },
 
-
-{
+        {
             i_phone_x: [
                 {
                     id: 1,
@@ -812,6 +810,174 @@ export const ItemsData =
                         warranty: "Brand Warrenty of 1 Year"
                     }
                 },
+
+            ]
+        },
+
+        {
+            i_phone_11: [
+                {
+                    id: 1,
+                    title: "Apple iPhone 11 (White, 64 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/k2jbyq80pkrrdj/mobile-refurbished/k/y/d/iphone-11-256-u-mwm82hn-a-apple-0-original-imafkg25mhaztxns.jpeg?q=70&crop=false",
+                    rating: 5,
+                    price: "18,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 64,
+                        display: "15.49 cm (6.1 inch) Liquid Retina HD Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A13 Bionic Chip Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 2,
+                    title: "Apple iPhone 11 (Black, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/128/128/k2jbyq80pkrrdj/mobile-refurbished/x/j/s/iphone-11-128-d-mwm02hn-a-apple-0-original-imafkg242ugz8hwc.jpeg?q=70&crop=false",
+                    rating: 5,
+                    price: "19,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Liquid Retina HD Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A13 Bionic Chip Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 3,
+                    title: "Apple iPhone 11 (Purple, 64 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/k2jbyq80pkrrdj/mobile-refurbished/y/k/z/iphone-11-64-a-mwlx2hn-a-apple-0-original-imafkg24ymsjav9h.jpeg?q=70&crop=false",
+                    rating: 4.3,
+                    price: "18,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 64,
+                        display: "15.49 cm (6.1 inch) Liquid Retina HD Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A13 Bionic Chip Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 4,
+                    title: "Apple iPhone 11 (Red, 64 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/k2jbyq80pkrrdj/mobile-refurbished/q/z/g/iphone-11-128-a-mwm32hn-a-apple-0-original-imafkg25hjmuy98e.jpeg?q=70&crop=false",
+                    rating: 4.5,
+                    price: "20,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 64,
+                        display: "15.49 cm (6.1 inch) Liquid Retina HD Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A13 Bionic Chip Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 5,
+                    title: "Apple iPhone 11 (Green, 64 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/k2jbyq80pkrrdj/mobile-refurbished/u/z/t/iphone-11-256-c-mwmd2hn-a-apple-0-original-imafkg24wszdhzy3.jpeg?q=70&crop=false",
+                    rating: 4.5,
+                    price: "20,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 64,
+                        display: "15.49 cm (6.1 inch) Liquid Retina HD Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A13 Bionic Chip Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 6,
+                    title: "Apple iPhone 11 (Yellow, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/k2jbyq80pkrrdj/mobile-refurbished/y/y/z/iphone-11-64-a-mwlw2hn-a-apple-0-original-imafkg25qghgbxmm.jpeg?q=70&crop=false",
+                    rating: 4.5,
+                    price: "19,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Liquid Retina HD Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A13 Bionic Chip Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 7,
+                    title: "Apple iPhone 11 (Black, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/k2jbyq80pkrrdj/mobile-refurbished/x/j/s/iphone-11-128-d-mwm02hn-a-apple-0-original-imafkg242ugz8hwc.jpeg?q=70&crop=false",
+                    rating: 4.5,
+                    price: "19,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Liquid Retina HD Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A13 Bionic Chip Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 8,
+                    title: "Apple iPhone 11 (White, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/k2jbyq80pkrrdj/mobile-refurbished/k/y/d/iphone-11-256-u-mwm82hn-a-apple-0-original-imafkg25mhaztxns.jpeg?q=70&crop=false",
+                    rating: 4.5,
+                    price: "19,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Liquid Retina HD Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A13 Bionic Chip Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 9,
+                    title: "Apple iPhone 11 (Red, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/k2jbyq80pkrrdj/mobile-refurbished/q/z/g/iphone-11-128-a-mwm32hn-a-apple-0-original-imafkg25hjmuy98e.jpeg?q=70&crop=false",
+                    rating: 4.5,
+                    price: "22,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Liquid Retina HD Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A13 Bionic Chip Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 10,
+                    title: "Apple iPhone 11 (Purple, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/k2jbyq80pkrrdj/mobile-refurbished/y/k/z/iphone-11-64-a-mwlx2hn-a-apple-0-original-imafkg24ymsjav9h.jpeg?q=70&crop=false",
+                    rating: 4.5,
+                    price: "22,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Liquid Retina HD Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A13 Bionic Chip Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+
+                
 
             ]
         },
