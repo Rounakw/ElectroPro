@@ -9,10 +9,29 @@
 }
 @media screen and (max-width:1023px) and (min-width:768px) {
     .main-detail-page{
+        padding: 0;
         align-items: center;
         justify-content: center;
         flex-direction: column;
 
     }
     
+}
+@media screen and (max-width:767px) {
+    .main-detail-page{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0px;
+       position: relative;
+        gap: 0vw;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .main-detail-page{
+
+    }
 }
