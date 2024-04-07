@@ -1648,4 +1648,170 @@ export const ItemsData =
             ]
         },
 
+        {
+            i_phone_pro_series: [
+                {
+                    id: 1,
+                    title: "Apple iPhone 15 Pro (Black Titanium, 512 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/0/q/d/-original-imagtc4hzawdcp4g.jpeg?q=70&crop=false",
+                    rating: 4.5,
+                    price: "70,999",
+                    isBestSeller: false,
+                    details: {
+                        rom: 512,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 72,
+                        processor: "A17 Pro Chip, 6 Core Processor Processor",
+                        warranty: "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+                    }
+                },
+                {
+                    id: 2,
+                    title: "Apple iPhone 15 Pro (Black Titanium, 256 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/0/q/d/-original-imagtc4hzawdcp4g.jpeg?q=70&crop=false",
+                    rating: 4.3,
+                    price: "65,999",
+                    isBestSeller: false,
+                    details: {
+                        rom: 256,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 72,
+                        processor: "A17 Pro Chip, 6 Core Processor Processor",
+                        warranty: "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+                    }
+                },
+                {
+                    id: 3,
+                    title: "Apple iPhone 15 Pro (White Titanium, 512 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/x/m/u/-original-imagtc4hv5qhegyb.jpeg?q=70&crop=false",
+                    rating: 4.3,
+                    price: "70,999",
+                    isBestSeller: false,
+                    details: {
+                        rom: 256,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 72,
+                        processor: "A17 Pro Chip, 6 Core Processor Processor",
+                        warranty: "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+                    }
+                },
+                {
+                    id: 4,
+                    title: "Apple iPhone 15 Pro (Black Titanium, 1 TB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/0/q/d/-original-imagtc4hzawdcp4g.jpeg?q=70&crop=false",
+                    rating: 4.3,
+                    price: "75,999",
+                    isBestSeller: false,
+                    details: {
+                        rom: 256,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 72,
+                        processor: "A17 Pro Chip, 6 Core Processor Processor",
+                        warranty: "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+                    }
+                },
+                {
+                    id: 5,
+                    title: "Apple iPhone 15 Pro (Blue Titanium, 1 TB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/z/4/r/-original-imagtc4g22rcatjg.jpeg?q=70&crop=false",
+                    rating: 4.3,
+                    price: "75,999",
+                    isBestSeller: false,
+                    details: {
+                        rom: 256,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 72,
+                        processor: "A17 Pro Chip, 6 Core Processor Processor",
+                        warranty: "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+                    }
+                },
+                {
+                    id: 6,
+                    title: "Apple iPhone 15 Pro (White Titanium, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/x/m/u/-original-imagtc4hv5qhegyb.jpeg?q=70&crop=false",
+                    rating: 4.3,
+                    price: "60,999",
+                    isBestSeller: false,
+                    details: {
+                        rom: 256,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 72,
+                        processor: "A17 Pro Chip, 6 Core Processor Processor",
+                        warranty: "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+                    }
+                },
+                {
+                    id: 7,
+                    title: "Apple iPhone 15 Pro (White Titanium, 256 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/x/m/u/-original-imagtc4hv5qhegyb.jpeg?q=70&crop=false",
+                    rating: 4.5,
+                    price: "65,999",
+                    isBestSeller: false,
+                    details: {
+                        rom: 256,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 72,
+                        processor: "A17 Pro Chip, 6 Core Processor Processor",
+                        warranty: "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+                    }
+                },
+                {
+                    id: 8,
+                    title: "Apple iPhone 15 Pro Max (Natural Titanium, 256 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/p/q/i/-original-imagtc3kfyhgfcvr.jpeg?q=70&crop=false",
+                    rating: 4.5,
+                    price: "66,999",
+                    isBestSeller: false,
+                    details: {
+                        rom: 256,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 72,
+                        processor: "A17 Pro Chip, 6 Core Processor Processor",
+                        warranty: "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+                    }
+                },
+                {
+                    id: 9,
+                    title: "Apple iPhone 15 Pro Max (White Titanium, 256 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/m/h/c/-original-imagtc3h9h6kpbkc.jpeg?q=70&crop=false",
+                    rating: 4.5,
+                    price: "76,999",
+                    isBestSeller: false,
+                    details: {
+                        rom: 256,
+                        display: "17.02 cm (6.7 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 72,
+                        processor: "A17 Pro Chip, 6 Core Processor Processor",
+                        warranty: "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+                    }
+                },
+                {
+                    id: 10,
+                    title: "Apple iPhone 15 Pro Max (Black Titanium, 256 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/a/r/5/-original-imagtc3kcmph6ax5.jpeg?q=70&crop=false",
+                    rating: 4.5,
+                    price: "76,999",
+                    isBestSeller: false,
+                    details: {
+                        rom: 256,
+                        display: "17.02 cm (6.7 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 72,
+                        processor: "A17 Pro Chip, 6 Core Processor Processor",
+                        warranty: "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+                    }
+                },
+                
+            ]
+        },
+
     ]
