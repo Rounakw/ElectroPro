@@ -1317,4 +1317,170 @@ export const ItemsData =
             ]
         },
 
+        {
+            i_phone_14: [
+                {
+                    id: 1,
+                    title: "Apple iPhone 14 (Blue, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/3/5/l/-original-imaghx9qmgqsk9s4.jpeg?q=70&crop=false",
+                    rating: 4,
+                    price: "45,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A15 Bionic Chip, 6 Core Processor Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 2,
+                    title: "Apple iPhone 14 (Midnight, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/9/e/e/-original-imaghx9q5rvcdghy.jpeg?q=70&crop=false",
+                    rating: 4,
+                    price: "45,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A15 Bionic Chip, 6 Core Processor Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 3,
+                    title: "Apple iPhone 14 (Starlight, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/m/o/b/-original-imaghx9qkugtbfrn.jpeg?q=70&crop=false",
+                    rating: 4,
+                    price: "45,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A15 Bionic Chip, 6 Core Processor Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 4,
+                    title: "Apple iPhone 14 (Purple, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/b/u/f/-original-imaghxa5hvapbfds.jpeg?q=70&crop=false",
+                    rating: 4,
+                    price: "45,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A15 Bionic Chip, 6 Core Processor Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 5,
+                    title: "Apple iPhone 14 ((PRODUCT)RED, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/r/k/o/-original-imaghx9qtwbnhwvy.jpeg?q=70&crop=false",
+                    rating: 4,
+                    price: "47,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A15 Bionic Chip, 6 Core Processor Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 6,
+                    title: "Apple iPhone 14 Plus (Starlight, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/l/v/8/-original-imaghx9qudmydgc4.jpeg?q=70&crop=false",
+                    rating: 4,
+                    price: "46,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A15 Bionic Chip, 6 Core Processor Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 7,
+                    title: "Apple iPhone 14 Plus (Blue, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/c/4/d/-original-imaghx9qygjjg8hz.jpeg?q=70&crop=false",
+                    rating: 4,
+                    price: "46,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A15 Bionic Chip, 6 Core Processor Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 8,
+                    title: "Apple iPhone 14 Plus ((PRODUCT)RED, 512 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/a/h/7/-original-imaghx9qaepzajta.jpeg?q=70&crop=false",
+                    rating: 4,
+                    price: "49,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A15 Bionic Chip, 6 Core Processor Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 9,
+                    title: "Apple iPhone 14 Plus (Purple, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/v/0/t/-original-imaghxa5rgcv5enm.jpeg?q=70&crop=false",
+                    rating: 4,
+                    price: "49,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A15 Bionic Chip, 6 Core Processor Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 10,
+                    title: "Apple iPhone 14 Plus (Midnight, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/a/b/0/-original-imaghx9qnhzxegu2.jpeg?q=70&crop=false",
+                    rating: 4,
+                    price: "49,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 12,
+                        processor: "A15 Bionic Chip, 6 Core Processor Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+
+            ]
+        },
+
     ]
