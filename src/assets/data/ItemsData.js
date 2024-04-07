@@ -1483,4 +1483,169 @@ export const ItemsData =
             ]
         },
 
+        {
+            i_phone_15: [
+                {
+                    id: 1,
+                    title: "Apple iPhone 15 (Pink, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/a/c/k/-original-imagtc5fuzkvczr7.jpeg?q=70&crop=false",
+                    rating: 4,
+                    price: "45,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 48,
+                        processor: "A16 Bionic Chip, 6 Core Processor Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 2,
+                    title: "Apple iPhone 15 (Blue, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/k/l/l/-original-imagtc5fz9spysyk.jpeg?q=70&crop=false",
+                    rating: 4,
+                    price: "45,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 48,
+                        processor: "A16 Bionic Chip, 6 Core Processor Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 3,
+                    title: "Apple iPhone 15 (Green, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/j/z/3/-original-imagtc5fqyz8tu4c.jpeg?q=70&crop=false",
+                    rating: 4,
+                    price: "45,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 48,
+                        processor: "A16 Bionic Chip, 6 Core Processor Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 4,
+                    title: "Apple iPhone 15 (Black, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/h/d/9/-original-imagtc2qzgnnuhxh.jpeg?q=70&crop=false",
+                    rating: 4,
+                    price: "45,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 48,
+                        processor: "A16 Bionic Chip, 6 Core Processor Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 5,
+                    title: "Apple iPhone 15 (Yellow, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/f/l/g/-original-imagtc5frtz9j7tb.jpeg?q=70&crop=false",
+                    rating: 4,
+                    price: "45,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 48,
+                        processor: "A16 Bionic Chip, 6 Core Processor Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 6,
+                    title: "Apple iPhone 15 Plus (Black, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/8/9/n/-original-imagtc6fyrstd4jm.jpeg?q=70&crop=false",
+                    rating: 4,
+                    price: "47,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 48,
+                        processor: "A16 Bionic Chip, 6 Core Processor Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 7,
+                    title: "Apple iPhone 15 Plus (Pink, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/c/6/r/-original-imagtc6fn8fecysv.jpeg?q=70&crop=false",
+                    rating: 4,
+                    price: "47,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 48,
+                        processor: "A16 Bionic Chip, 6 Core Processor Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 8,
+                    title: "Apple iPhone 15 (Black, 256 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/h/d/9/-original-imagtc2qzgnnuhxh.jpeg?q=70&crop=false",
+                    rating: 4,
+                    price: "46,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 48,
+                        processor: "A16 Bionic Chip, 6 Core Processor Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 9,
+                    title: "Apple iPhone 15 (Green, 256 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/j/z/3/-original-imagtc5fqyz8tu4c.jpeg?q=70&crop=false",
+                    rating: 4,
+                    price: "46,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 48,
+                        processor: "A16 Bionic Chip, 6 Core Processor Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+                {
+                    id: 10,
+                    title: "Apple iPhone 15 Plus (Blue, 128 GB)",
+                    thumbnail: "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/1/i/x/-original-imagtc6fhhtqjnr9.jpeg?q=70&crop=false",
+                    rating: 4,
+                    price: "47,499",
+                    isBestSeller: false,
+                    details: {
+                        rom: 128,
+                        display: "15.49 cm (6.1 inch) Super Retina XDR Display",
+                        frontCamera: 12,
+                        rearCamera: 48,
+                        processor: "A16 Bionic Chip, 6 Core Processor Processor",
+                        warranty: "Brand Warrenty of 1 Year"
+                    }
+                },
+            ]
+        },
+
     ]
