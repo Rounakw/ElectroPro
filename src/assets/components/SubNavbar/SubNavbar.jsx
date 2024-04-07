@@ -3,8 +3,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './Subnavbar.css'
 import Slider from 'react-slick';
+import { NavLink } from 'react-router-dom';
 function SubNavbar() {
-  let list = ["SE Series", "6 Series", "7 Series", "8 Series", "X Series", "11 Series", "12 Series", "13 Series", "14 Series", "15 Series","Pro Series"]
+  let list = [["SE Series","i_phone_se"]
+  , ["6 Series","i_phone_6"], ["7 Series",'i_phone_7'], ["8 Series","i_phone_8"], ["X Series","i_phone_x"], ["11 Series","i_phone_11"], ["12 Series","i_phone_12"], ["13 Series","i_phone_13"], ["14 Series","i_phone_14"], ["15 Series","i_phone_15"],["Pro Series","i_phone_pro_series"]]
 
   
 
@@ -52,8 +54,12 @@ function SubNavbar() {
       <Slider {...settings}>
         {
           list.map((serirs) => {
-            return <div className='subnav-item'>
-              <h3>{serirs}</h3></div>
+            return<>
+             <NavLink to={`/ElectroPro/product/item/${serirs[1]}`} style={{color:"black", textDecoration:"none"}}>
+            <div className='subnav-item'>
+              <h3>{serirs[0]}</h3></div>
+              </NavLink> 
+              </>
           })
         }
       </Slider>
