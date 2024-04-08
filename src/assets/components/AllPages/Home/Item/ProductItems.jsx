@@ -1,26 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Product-items.css'
 import StarRateIcon from '@mui/icons-material/StarRate';
 import Rating from '@mui/material/Rating';
 import { useCart } from '../../../context/CartContext';
-function ProductItems({ id, title, thumbnail, rating, price, isBestSeller, rom, display, frontCamera, rearCamera, processor, warranty }) {
+function ProductItems({ id, title, thumbnail, rating, price, isBestSeller, rom, display, frontCamera, rearCamera, processor, warranty,updatemsz}) {
 
     let [cart, setCart] = useCart()
 
     function handleOnClickToAddToCart(title,price,thumbnail){
+        
         let cartObj = {
             title:title,
             price:price,
-            thumbnail:thumbnail
+            thumbnail:thumbnail,
+            isAddOnCart:true,
         }
-
         setCart(()=>{
             return [...cart, cartObj ] 
         })
+
+        updatemsz()
+        hidemsz()
     }
 
-    
-    
     return (<>
         <div className='Product-items' >
             <div className="thumbnail-div">
@@ -75,6 +77,8 @@ function ProductItems({ id, title, thumbnail, rating, price, isBestSeller, rom, 
                 </div>
             </div>
         </div>
+
+        
     </>
     )
 }

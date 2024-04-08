@@ -7,6 +7,13 @@
    position: relative;
     gap: 1vw;
 }
+.addCartPopup{
+    position: sticky;
+    color: white;
+    /* transform: translateX(37vw); */
+    width: 300px;
+    bottom: 10px;
+}
 @media screen and (max-width:1023px) and (min-width:768px) {
     .main-detail-page{
         padding: 0;
