@@ -12,7 +12,7 @@ function Item() {
     setAddCart(true)
     setTimeout(() => {
       setAddCart(false)
-    }, 300000);
+    }, 3000);
   }
 
 
