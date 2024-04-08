@@ -53,13 +53,16 @@ function SubNavbar() {
     <div className="slider-container" id='subnavbarslider'>
       <Slider {...settings}>
         {
-          list.map((serirs) => {
-            return<>
+          list.map((serirs,idx)=> {
+            return<div key={idx}>
+
+            
              <NavLink to={`/ElectroPro/product/item/${serirs[1]}`} style={{color:"black", textDecoration:"none"}}>
             <div className='subnav-item'>
               <h3>{serirs[0]}</h3></div>
               </NavLink> 
-              </>
+              </div>
+              
           })
         }
       </Slider>

@@ -23,7 +23,9 @@ function Item() {
       <div className="items-section">
         {
           MobileDetails[id].map((data) => {
-            return <ProductItems id={data.id} title={data.title} thumbnail={data.thumbnail} rating={data.rating} price={data.price} isBestSeller={data.isBestSeller} rom={data.details.rom} display={data.details.display} frontCamera={data.details.frontCamera} rearCamera={data.details.rearCamera} processor={data.details.processor} warranty={data.details.warranty} />
+            return <div key={data.id}>
+             <ProductItems id={data.id} title={data.title} thumbnail={data.thumbnail} rating={data.rating} price={data.price} isBestSeller={data.isBestSeller} rom={data.details.rom} display={data.details.display} frontCamera={data.details.frontCamera} rearCamera={data.details.rearCamera} processor={data.details.processor} warranty={data.details.warranty} />
+             </div>
           })
         }
       </div>

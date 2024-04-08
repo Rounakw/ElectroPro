@@ -5,11 +5,14 @@ import menu from "./assets/hamburger.png"
 import cross from "./assets/cross.svg"
 import home from "./assets/home.png"
 import product from "./assets/product.png"
-import cart from "./assets/cart.png"
+import cartimg from "./assets/cart.png"
 import contact from "./assets/contact.png"
 import { NavLink } from 'react-router-dom'
+import { useCart } from '../context/CartContext'
 function Navbar() {
-    let totalCart = 0
+    let [cart] = useCart()
+    let l = cart.length;
+    let totalCart = l
 
     const [show, setShow] = useState(false)
     function handleToggleMenu() {
@@ -37,7 +40,7 @@ function Navbar() {
                     </p>
                     <p className='navitem-i'>
                         <NavLink to={"cart"} style={({ isActive }) => { return { color: isActive ? "red" : "white", textDecoration: "none" } }}>
-                            <span className="span">CArt</span>
+                            <span className="span">Cart</span>
                         </NavLink>
                         <span className='totalcart'>{totalCart}</span>
                     </p>
@@ -83,7 +86,7 @@ function Navbar() {
 
 
                     <NavLink to={"cart"} style={({ isActive })=>{ return { color: isActive ? "red" : "white", textDecoration: "none", } }}>
-                    <p className='navitem-cart nav-item-cart' style={{ position: "relative" }}><img src={cart} alt="" />Cart
+                    <p className='navitem-cart nav-item-cart' style={{ position: "relative" }}><img src={cartimg} alt="" />Cart
                         <span className='totalcart'>{totalCart}</span></p>
                         </NavLink>
 

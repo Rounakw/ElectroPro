@@ -93,8 +93,8 @@ function CustomerReview() {
       <h2 id="mobile" style={{ textAlign: "center" }}>Review</h2>
       <Slider {...settings}>
         {
-          customers.map((item) => {
-            return <div>
+          customers.map((item,idx) => {
+            return <div key={idx}>
               <Customer name={item.name} profile={item.profile} rating={item.rating} description={item.description} />
             </div>
           })

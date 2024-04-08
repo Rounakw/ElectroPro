@@ -2,7 +2,32 @@ import React from 'react'
 import './Product-items.css'
 import StarRateIcon from '@mui/icons-material/StarRate';
 import Rating from '@mui/material/Rating';
+import { useCart } from '../../../context/CartContext';
 function ProductItems({ id, title, thumbnail, rating, price, isBestSeller, rom, display, frontCamera, rearCamera, processor, warranty }) {
+
+    let [cart, setCart] = useCart()
+
+    function handleOnClickToAddToCart(){
+        let cartObj = {
+            title:title,
+            thumbnail:thumbnail,
+            rating:rating,
+            price:price,
+            rom:rom,
+            display:display,
+            frontCamera:frontCamera,
+            rearCamera:rearCamera,
+            processor:processor,
+            warranty:warranty
+        }
+
+        setCart(()=>{
+            return [...cart, cartObj ] 
+        })
+    }
+
+    
+    
     return (<>
         <div className='Product-items' >
             <div className="thumbnail-div">
@@ -29,7 +54,7 @@ function ProductItems({ id, title, thumbnail, rating, price, isBestSeller, rom, 
                 <p className='offer'>save extra with combo offers</p>
                 <p className='exchange'>Upto <span>&#x20b9;1999</span> Off on Exchange</p>
                 <div className='addToCarDiv'>
-                    <button>Add to cart</button>
+                    <button onClick={handleOnClickToAddToCart}>Add to cart</button>
                 </div>
             </div>
         </div>
@@ -53,7 +78,7 @@ function ProductItems({ id, title, thumbnail, rating, price, isBestSeller, rom, 
                 <p className='offer-mobile'>save extra with combo offers</p>
                 <p className='exchange-mobile'>Upto <span>&#x20b9;1999</span> Off on Exchange</p>
                 <div className='addToCarDiv-mobile'>
-                    <button>Add to cart</button>
+                    <button onClick={handleOnClickToAddToCart}>Add to cart</button>
                 </div>
             </div>
         </div>
