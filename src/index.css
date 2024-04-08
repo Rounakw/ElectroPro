@@ -3,11 +3,15 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  
 }
 body{
   height: 100vh;
 }
 html{
   height: 100vh;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
 }
 
