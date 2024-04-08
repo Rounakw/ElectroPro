@@ -5,10 +5,10 @@ import './index.css'
 import { CartContextProvider } from './assets/components/context/CartContext.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <CartContextProvider>
     <App />
     </CartContextProvider>
-  </React.StrictMode>,
+  // </React.StrictMode>,
 
 )

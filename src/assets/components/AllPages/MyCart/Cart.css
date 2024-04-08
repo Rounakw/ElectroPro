@@ -1,31 +1,131 @@
 .perCart{
-    background-color: #ECECEC;
+    background-color: #ebe7e7;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-columns:1fr 2fr 1fr 1fr;
     justify-items: center;
-    margin: 20px;
+    margin: 0.7vw;
     width: 70vw;
     border-radius: 5px;
-    padding: 20px 0px;
+    padding: 2vw 0px;
     align-items: center;
 }
+
 .perCart img{
     mix-blend-mode: multiply;
     width: 200px;
     aspect-ratio: 3/2;
     object-fit: contain;
-
-
 }
 
 .percarttitle{
     font-weight: 700;
+    font-size: 1.5vw;
 }
 
 .percartquantity{
-
+    font-size: 20px;
+    font-weight: 900;
+}
+.percartquantity span{
+    font-size: 20px;
+    font-weight: normal;
+}
+.percartprice-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2vw;
 }
 
 .percartprice{
+    font-size: 20px;
     font-weight: 900;
+}
+.percartprice-div button{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    background-color: red;
+    outline: none;
+    border: none;
+    color: white;
+    width: 10vw;
+    height: 3vw;
+}
+
+@media screen and (max-width:1023px) and (min-width:768px){
+
+.perCart{
+    width: 80vw;
+}
+.perCart img{
+    width: 20vw;
+}
+.percarttitle{
+    font-weight: bold;
+    font-size: 1.9vw;
+}
+.percartprice-div button{
+    width: 100px;
+    height: 30px;
+}
+.total-ssection button{
+    width: 100px;
+    height: 30vw;
+} 
+}
+
+@media screen and (max-width:767px) {
+    .perCart{
+        width: 80vw;
+    }
+    .perCart img{
+    aspect-ratio: 1/1.5;
+        width: 10vw;
+    }
+    .percarttitle{
+        font-weight: 700;
+        font-size: 2.3vw;
+    }
+    .percartquantity{
+        font-size: 15px;
+        font-weight: 900;
+    }
+    .percartquantity span{
+        font-size: 15px;
+        font-weight: normal;
+    }
+    .percartprice-div button{
+        border-radius: 5px;
+        background-color: #ff0000;
+        color: white;
+        font-size: 15px;
+        width: 80px;
+        height: 30px;
+        margin-right: 10px;
+    }
+    .percartprice-div{
+        align-items: start;
+    }
+
+    
+}
+
+@media screen and (max-width:500px) {
+    .perCart{
+        width: 90vw;
+        background-color: rgb(233, 233, 233);
+        height: 130px;
+    }
+    .perCart img{
+        aspect-ratio: 1/1.5;
+            width: 15vw;
+    }
+    .percarttitle{
+        font-weight: bold;
+        font-size: 3.5vw;
+    }
+
+    
 }

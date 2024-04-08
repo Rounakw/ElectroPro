@@ -1,7 +1,11 @@
 .emptycart{
-    margin-bottom: 10.3vh;
     text-transform: uppercase;
-    padding-top: 100px;
+    margin: auto;
+    display: flex;
+    height: calc(100px + 10.3vw);
+}
+.emptycart .emptycartmsz{
+    font-size: 30px;
 }
 
 .page-cart{
@@ -9,3 +13,128 @@
     flex-direction: column;
     align-items: center;
 }
+.page-cart h2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 2vw;
+    text-transform: uppercase;
+    padding: 25px 0px 10px 0px;
+}
+.total-ssection{
+    margin: auto;
+    /* background-color: red; */
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding:10px 20px;
+}
+.total-ssection p{
+    display: flex;
+    padding: 10px 0px;
+    align-items: center;
+    gap: 100px;
+    font-size: 2vw;
+
+}
+.total-ssection span{
+    font-size: 2vw;
+    font-weight: 600;
+
+}
+.total-ssection button{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    background-color: #009100;
+    outline: none;
+    border: none;
+    color: white;
+    width: 10vw;
+    height: 3vw;
+}
+@media screen and (max-width:1023px) and (min-width:768px){
+    .total-ssection{
+        margin: auto;
+        /* background-color: red; */
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        padding:10px 2vw;
+    }
+    .page-cart h2{
+        font-size: 3vw;
+    }
+    .total-ssection p{
+        font-size: 3vw;
+    
+    }
+    .total-ssection span{
+        font-size: 3vw;
+    }
+    .total-ssection button{
+        font-size: 20px;
+        width: 150px;
+        height: 50px;
+    }
+        
+    }
+    @media screen and (max-width:767px) {
+        .page-cart h2{
+            font-size: 3vw;
+        }
+
+        .total-ssection{
+            width: 80vw;
+            padding: 10px 10px;
+        }
+        .total-ssection p{
+            font-size: 3.5vw;
+    
+        }
+        .total-ssection span{
+            font-size: 4vw;
+        }
+        .total-ssection button{
+            color: white;
+        font-size: 15px;
+        width: 80px;
+        height: 30px;
+        }
+        
+    }
+    @media screen and (max-width:500px) {
+        .page-cart h2{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            font-weight: 700;
+            font-size: 5vw;
+            text-transform: uppercase;
+            padding: 25px 0px 10px 0px;
+        }
+        .total-ssection{
+            width: 90vw;
+            padding: 10px 10px;
+        }
+        .total-ssection p{
+            font-size: 5vw;
+            gap: 30px;
+    
+        }
+        .total-ssection span{
+            font-size: 5vw;
+        }
+.emptycart .emptycartmsz{
+    font-size: 20px;
+    text-align: center;
+
+}
+        
+    }
