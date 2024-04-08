@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
+import  {useLocation} from 'react-router-dom'
 import Logo from '../Logo/Logo'
 import './Navbar.css'
 import menu from "./assets/hamburger.png"
@@ -11,13 +12,19 @@ import { NavLink } from 'react-router-dom'
 import { useCart } from '../context/CartContext'
 function Navbar() {
     let [cart] = useCart()
-    let l = cart.length;
-    let totalCart = l
+    let totalCart = cart.length;
 
+    
     const [show, setShow] = useState(false)
     function handleToggleMenu() {
         setShow(!show)
     }
+
+    let {pathname} = useLocation()
+    useEffect(() => {
+        setShow(false)
+    }, [pathname])
+
     return (
         <>
             <div className='navbar'>
