@@ -71,7 +71,7 @@ function ProductItems({ id, title, thumbnail, rating, price, isBestSeller, rom, 
                 <p className='offer-mobile'>save extra with combo offers</p>
                 <p className='exchange-mobile'>Upto <span>&#x20b9;1999</span> Off on Exchange</p>
                 <div className='addToCarDiv-mobile'>
-                    <button onClick={handleOnClickToAddToCart}>Add to cart</button>
+                    <button onClick={()=>{handleOnClickToAddToCart(title,price,thumbnail)}}>Add to cart</button>
                 </div>
             </div>
         </div>
