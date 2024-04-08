@@ -8,8 +8,10 @@ function ScrollToTop() {
     
     
     return useEffect(() => {
-        window.scrollTo(0, 0)
-        // console.log(window.screenX,window.screenY);
+        window.scrollTo(
+            {top:0,
+            behavior:"smooth"}
+            )
     }, [pathname])
 }
 
