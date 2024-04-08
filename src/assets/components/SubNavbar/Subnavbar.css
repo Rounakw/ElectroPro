@@ -9,6 +9,9 @@
     border-bottom: 1px solid rgb(255, 255, 255);
     background-color: rgb(255, 255, 255);
 }
+#subnavbarslider .slick-arrow{
+    display: none !important;
+}
 .subnav-item{
     text-align: center;
     cursor: pointer;
