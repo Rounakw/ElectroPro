@@ -108,7 +108,7 @@
         height: 100%;
         width: 200px;
         /* transition: all linear 3s; */
-        animation: animation 0.5s 1 linear forwards alternate;
+        /* animation: animation 0.5s 1 linear forwards alternate; */
     }
     @keyframes animation {
         0%   {transform: translateX(-100%)}
