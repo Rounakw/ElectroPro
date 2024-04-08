@@ -102,13 +102,12 @@
         z-index: 100;
         display: block;
         background-color: rgb(29, 29, 29);
-        position: fixed;
+        position: absolute;
         top: 0px;
         left: 0px;
-        height: 100%;
+        height: 608px;
         width: 200px;
-        /* transition: all linear 3s; */
-        /* animation: animation 0.5s 1 linear forwards alternate; */
+        animation: animation 0.5s 1 linear forwards alternate;
     }
     @keyframes animation {
         0%   {transform: translateX(-100%)}
