@@ -20,7 +20,6 @@ function ProductItems({ id, title, thumbnail, rating, price, isBestSeller, rom, 
         })
 
         updatemsz()
-        hidemsz()
     }
 
     return (<>
