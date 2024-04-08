@@ -7,18 +7,11 @@ function ProductItems({ id, title, thumbnail, rating, price, isBestSeller, rom, 
 
     let [cart, setCart] = useCart()
 
-    function handleOnClickToAddToCart(){
+    function handleOnClickToAddToCart(title,price,thumbnail){
         let cartObj = {
             title:title,
-            thumbnail:thumbnail,
-            rating:rating,
             price:price,
-            rom:rom,
-            display:display,
-            frontCamera:frontCamera,
-            rearCamera:rearCamera,
-            processor:processor,
-            warranty:warranty
+            thumbnail:thumbnail
         }
 
         setCart(()=>{
@@ -54,7 +47,7 @@ function ProductItems({ id, title, thumbnail, rating, price, isBestSeller, rom, 
                 <p className='offer'>save extra with combo offers</p>
                 <p className='exchange'>Upto <span>&#x20b9;1999</span> Off on Exchange</p>
                 <div className='addToCarDiv'>
-                    <button onClick={handleOnClickToAddToCart}>Add to cart</button>
+                    <button onClick={()=>{handleOnClickToAddToCart(title,price,thumbnail)}}>Add to cart</button>
                 </div>
             </div>
         </div>

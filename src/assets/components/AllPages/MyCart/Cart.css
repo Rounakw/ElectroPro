@@ -1,0 +1,31 @@
+.perCart{
+    background-color: #ECECEC;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    justify-items: center;
+    margin: 20px;
+    width: 70vw;
+    border-radius: 5px;
+    padding: 20px 0px;
+    align-items: center;
+}
+.perCart img{
+    mix-blend-mode: multiply;
+    width: 200px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+
+
+}
+
+.percarttitle{
+    font-weight: 700;
+}
+
+.percartquantity{
+
+}
+
+.percartprice{
+    font-weight: 900;
+}

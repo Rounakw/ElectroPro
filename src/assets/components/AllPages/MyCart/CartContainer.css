@@ -1,0 +1,11 @@
+.emptycart{
+    margin-bottom: 10.3vh;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+
+.page-cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
