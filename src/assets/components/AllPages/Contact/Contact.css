@@ -1,25 +1,133 @@
 .contact-page{
-    background:linear-gradient(135deg, red, black);
+    background: linear-gradient(160deg, rgba(255, 0, 0, 0.89), rgb(0, 0, 0));
+
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding:30px  100px;
+    gap: 20px;
 }
 .contact-page>span{
-    font-size: 200px;
+    font-size: 100px;
 }
-.contact-page h3{
+.contact-title{
+    width: 600px;
+    font-weight: bolder;
+    font-family: monospace;
+    font-size: 30px;
+    text-align: center;
     color: white;
 }
 
 .contact-des{
     color: rgb(214, 214, 214);
+    font-size: 15px;
+    text-align: center;
+    font-family: monospace;
+    width: 700px;
 }
 
 .social{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
 
 }
 .social-p{
-    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(238, 238, 238);
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+.social-p:hover{
+    color: rgb(194, 194, 194);
+    text-decoration: underline;
+}
+.social-p span{
+    font-family: monospace;
+}
+@media screen and (max-width:767px) {
+.contact-title{
+    width: 400px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.contact-des{
+    font-size: 15px;
+    width:480px;
+}
+    .social{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.social-p:hover{
+    color: rgb(194, 194, 194);
+    text-decoration:none;
+}
+}
+@media screen and (max-width:520px) {
+    .contact-page>span{
+        font-size: 80px;
+    }
+.contact-title{
+    width: 300px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.contact-des{
+    font-size: 13px;
+    width:380px;
+}
+}
+@media screen and (max-width:400px) {
+    .contact-page>span{
+        font-size: 15vw;
+    }
+.contact-title{
+    width: 300px;
+    font-weight: bolder;
+    font-size: 5vw;
+}
+
+.contact-des{
+    font-size: 3vw;
+    width:300px;
+}
+}
+@media screen and (max-width:400px) {
+    .contact-page>span{
+        font-size: 15vw;
+    }
+.contact-title{
+    width: 300px;
+    font-weight: bolder;
+    font-size: 5vw;
+}
+
+.contact-des{
+    font-size: 3vw;
+    width:300px;
+}
+}
+@media screen and (max-width:300px) {
+    .contact-page>span{
+        font-size: 15vw;
+    }
+.contact-title{
+    width: 200px;
+    font-weight: bolder;
+    font-size: 5vw;
+}
+
+.contact-des{
+    font-size: 3vw;
+    width:250px;
+}
 }

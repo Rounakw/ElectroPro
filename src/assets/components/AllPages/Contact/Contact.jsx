@@ -11,7 +11,7 @@ function Contact() {
   return (
     <div className='contact-page'>
       <span>👨‍💻</span>
-      <h3>Crafting digital experiences through code and design.</h3>
+      <p className='contact-title'>Crafting digital experiences through code and design.</p>
       <p className='contact-des'>As a seasoned web developer, {Name} combines expertise in coding languages like HTML, CSS, and JavaScript with a keen eye for design principles. With a passion for creating seamless digital experiences, {Name} thrives in bringing visions to life on the web. From responsive layouts to dynamic functionalities, {Name} strives to deliver top-notch solutions tailored to clients' needs. With a commitment to innovation and continuous learning, {Name} remains at the forefront of web development, dedicated to pushing boundaries and exceeding expectations.</p>
 
       <div className="social">
