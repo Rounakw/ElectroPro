@@ -6,6 +6,7 @@ import ProductContainer from './assets/components/AllPages/Products/ProductConta
 import Item from './assets/components/AllPages/Home/Item/Item';
 import CartContainer from './assets/components/AllPages/MyCart/CartContainer';
 import ScrollToTop from './assets/data/ScrollToTop';
+import Contact from './assets/components/AllPages/Contact/Contact';
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
         <Route path='product' element={<ProductContainer />} />
         <Route path='product/item/:id' exact={true} element={<Item />} />
         <Route path='cart' element={<CartContainer />} />
-        <Route path='contact' element={<h1>Contact page unavailable</h1>} />
+        <Route path='contact' element={<Contact/>} />
       </Route>
     </Routes>
     </>

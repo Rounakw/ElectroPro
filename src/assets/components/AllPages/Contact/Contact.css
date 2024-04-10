@@ -1,0 +1,25 @@
+.contact-page{
+    background:linear-gradient(135deg, red, black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-page>span{
+    font-size: 200px;
+}
+.contact-page h3{
+    color: white;
+}
+
+.contact-des{
+    color: rgb(214, 214, 214);
+}
+
+.social{
+
+}
+.social-p{
+    color: white;
+    display: flex;
+    align-items: center;
+}
