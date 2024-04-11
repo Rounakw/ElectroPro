@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import  {useLocation} from 'react-router-dom'
+import  {Link, useLocation} from 'react-router-dom'
 import Logo from '../Logo/Logo'
 import './Navbar.css'
 import menu from "./assets/hamburger.png"
@@ -61,7 +61,10 @@ function Navbar() {
                 </div>
                 <div className="mobile-right">
                     <div className='navbar-signin'>
+                        <Link to="Maintanence">
                         <button >Sign In</button>
+
+                        </Link>
                     </div>
 
                     <div className='navbar-hamburger-menu'>

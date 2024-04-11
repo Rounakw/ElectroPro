@@ -1,6 +1,7 @@
 import React from 'react'
 import mac from './assets/mac.png'
 import './MacRefurbished.css'
+import { Link } from 'react-router-dom'
 
 function MacRefurbished() {
   return <>
@@ -11,7 +12,9 @@ function MacRefurbished() {
             <p className='refurbished-mac-description'>
             Welcome to our refurbished Mac collection, where quality meets affordability. Our meticulously curated selection of refurbished Mac computers offers you the best of both worlds – top-notch performance and significant savings. Each Mac undergoes rigorous testing and refurbishment processes to ensure it meets our high standards, providing you with a reliable computing experience without compromising on quality.
             </p>
+            <Link to={"maintanence"}> 
             <button >Learn More</button>
+            </Link>
     </div>
     <img src={mac} alt="macimg" />
     </div>

@@ -7,6 +7,7 @@ import Item from './assets/components/AllPages/Home/Item/Item';
 import CartContainer from './assets/components/AllPages/MyCart/CartContainer';
 import ScrollToTop from './assets/data/ScrollToTop';
 import Contact from './assets/components/AllPages/Contact/Contact';
+import Maintanence from './assets/components/AllPages/Maintanence/Maintanence';
 
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
         <Route path='product/item/:id' exact={true} element={<Item />} />
         <Route path='cart' element={<CartContainer />} />
         <Route path='contact' element={<Contact/>} />
+
+
+        <Route path='*' element={<Maintanence/>} />
       </Route>
     </Routes>
     </>

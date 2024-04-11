@@ -16,7 +16,7 @@ function HeroSection() {
     SetValue(e.target.value)
   }
 
-
+  
   return (
     <div className='hero-section'>
       <img src={img} alt="" className='dekstopimg img' />
@@ -26,8 +26,8 @@ function HeroSection() {
         <div className="search-area" >
           <input type="text" placeholder='Search Iphones, Mac book...' spellCheck='false' value={value} onChange={handleOnChange} />
           
-          <NavLink to={`/ElectroPro/product/item/${link}`}>
-          <button >Search</button>
+          <NavLink to={ value && `/ElectroPro/product/item/${link}`}>
+          <button>Search</button>
           </NavLink>
           
         </div>

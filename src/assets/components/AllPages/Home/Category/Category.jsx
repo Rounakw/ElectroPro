@@ -9,6 +9,7 @@ import pods from './assets/pods.jpeg'
 import xbox from './assets/x-box.jpeg'
 import tv from './assets/tv.jpeg'
 import cam from './assets/cam.jpeg'
+import { Link } from 'react-router-dom'
 
 function Category() {
 
@@ -16,14 +17,38 @@ function Category() {
         <div className='Category-div'>
             <h1>Shop by Category</h1>
             <div className="items-div">
-                <Items thumb={mobile}  title={"Restored cell phones"} />
-                <Items thumb={tab}  title={"Restored tablets"} />
-                <Items thumb={macbook}  title={"Restored computers"} />
-                <Items thumb={watch}  title={"Restored Watches"} />
-                <Items thumb={pods}  title={"Restored audio"} />
-                <Items thumb={xbox}  title={"Restored video games"} />
-                <Items thumb={tv}  title={"Restored TVs"} />
-                <Items thumb={cam}  title={"Restored cameras"} />
+                <Link to={"/ElectroPro/product"} style={{ textDecoration: "none", color: "black" }}>
+                    <Items thumb={mobile} title={"Restored cell phones"} />
+                </Link>
+                <Link to={"maintanence"} style={{ textDecoration: "none", color: "black" }}>
+                <Items thumb={tab} title={"Restored tablets"} />
+                </Link>
+                <Link to={"maintanence"} style={{ textDecoration: "none", color: "black" }}>
+
+                <Items thumb={macbook} title={"Restored computers"} />
+                </Link>
+
+                <Link to={"maintanence"} style={{ textDecoration: "none", color: "black" }}>
+
+                <Items thumb={watch} title={"Restored Watches"} />
+                </Link>
+
+                <Link to={"maintanence"} style={{ textDecoration: "none", color: "black" }}>
+
+                <Items thumb={pods} title={"Restored audio"} />
+                </Link>
+                <Link to={"maintanence"} style={{ textDecoration: "none", color: "black" }}>
+
+                <Items thumb={xbox} title={"Restored video games"} />
+                </Link>
+                <Link to={"maintanence"} style={{ textDecoration: "none", color: "black" }}>
+
+                <Items thumb={tv} title={"Restored TVs"} />
+                </Link>
+                <Link to={"maintanence"} style={{ textDecoration: "none", color: "black" }}>
+
+                <Items thumb={cam} title={"Restored cameras"} />
+                </Link>
             </div>
 
         </div>
